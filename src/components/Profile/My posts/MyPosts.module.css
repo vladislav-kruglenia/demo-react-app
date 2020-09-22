@@ -1,7 +1,10 @@
-.postsBlock{
-    padding: 10px;
+.myPostsContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
 }
+.postsBlock{
+    width: 520px;
 
-.posts{
-    margin-top: 10px;
+    /*border:1px solid navy;*/
 }

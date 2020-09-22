@@ -1,0 +1,14 @@
+.buttonStyle{
+    display: block;
+    background-color: #4977a8;
+    border: none;
+    color:#ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.buttonStyle:hover{
+    cursor: pointer;
+}
