@@ -1,7 +1,7 @@
 import withSuspense from "./HighOrderComponents/widthSuspenseComponent";
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Redirect,/*BrowserRouter*/ Route, Switch, withRouter} from "react-router-dom";
+import {HashRouter, Redirect,/*BrowserRouter*/ Route, Switch, withRouter} from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
@@ -75,11 +75,11 @@ export let AppContainer = compose(
 
 export const SamuraiJSApp = (props) => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Provider store={store}>
                 <AppContainer/>
             </Provider>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
